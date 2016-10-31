@@ -6,9 +6,7 @@ import { config } from 'config'
 // Component
 const Stateless = () => {
   return (
-    <div
-      className="kittens"
-    >
+    <div>
       I'm still stateless
       <img src="/images/kitten.jpg" />
     </div>
