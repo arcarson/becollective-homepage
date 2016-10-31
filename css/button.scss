@@ -1,0 +1,11 @@
+@import './colors';
+
+.button {
+  background-color: $color-green;
+  border: 0;
+  border-radius: 100px;
+  color: $color-white;
+  display: block;
+  padding: .5rem 1rem;
+  text-transform: uppercase;
+}

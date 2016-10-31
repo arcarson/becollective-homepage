@@ -1,0 +1,15 @@
+@import './colors';
+
+.header {
+  align-items: center;
+  background-color: $color-grey;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 100%;
+}
+
+.header__aside {
+  align-items: center;
+  display: flex;
+}

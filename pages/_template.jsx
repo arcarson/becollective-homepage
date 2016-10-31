@@ -1,18 +1,30 @@
+// Imports - config
 import React from 'react'
-import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
 
-module.exports = React.createClass({
-  propTypes () {
-    return {
-      children: React.PropTypes.any,
-    }
-  },
-  render () {
-    return (
-      <div>
-        {this.props.children}
-      </div>
-    )
-  },
-})
+// Imports - components
+import { Link } from 'react-router'
+import Header from '../components/Header'
+
+// Imports - styles
+import 'normalize.css'
+import '../css/base'
+
+
+// Component
+const Template = ({ children }) => {
+  return (
+    <div>
+      <Header />
+      { children }
+    </div>
+  )
+}
+
+
+Template.propTypes = {
+  children: React.PropTypes.element,
+}
+
+
+export default Template
