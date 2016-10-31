@@ -36,6 +36,10 @@ const MainNav = ({ items }) => {
 
 
 MainNav.propTypes = {
+  items: React.PropTypes.shape({
+    title: React.PropTypes.string.isRequired,
+    address: React.PropTypes.string,
+  }),
 }
 
 

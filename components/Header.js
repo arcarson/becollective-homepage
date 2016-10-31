@@ -2,7 +2,6 @@
 import React from 'react'
 
 // Imports - components
-import { Link } from 'react-router'
 import MainNav from './MainNav'
 import Button from './Button'
 
@@ -12,7 +11,7 @@ import '../css/logo'
 
 
 // Component
-const Header = ({  }) => {
+const Header = () => {
   return (
     <div
       className="header"
