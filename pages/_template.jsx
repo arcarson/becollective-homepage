@@ -8,6 +8,7 @@ import Header from '../components/Header'
 
 // Imports - styles
 import 'normalize.css'
+import '../css/type'
 import '../css/base'
 
 
