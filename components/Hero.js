@@ -18,6 +18,7 @@ const Hero = ({ children }) => {
 
 
 Hero.propTypes = {
+  children: React.PropTypes.node,
 }
 
 

@@ -89,7 +89,7 @@ const Home = () => {
         <TextBlock>
           <p>
             Be Collective is a platform for action and a tool that asks what you can do
-            - not what you can't, and highlights what has been achieved - not what hasn't.
+            - not what you can&apos;t, and highlights what has been achieved - not what hasn&apos;t.
             <br />
             Be Collective is for everybody and there are no barriers to starting your
             journey and having your efforts recorded, verified and celebrated.

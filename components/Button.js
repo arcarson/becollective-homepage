@@ -37,4 +37,10 @@ const Button = ({ color, className, ...props }) => {
 }
 
 
+Button.propTypes = {
+  color: React.PropTypes.string,
+  className: React.PropTypes.string,
+}
+
+
 export default Button

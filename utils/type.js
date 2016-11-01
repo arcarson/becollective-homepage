@@ -3,7 +3,7 @@ import toCss from 'to-css'
 import { kebabCase, forIn, set } from 'lodash'
 import typescale from 'typescale'
 
-export const type = typescale({
+const type = typescale({
   bodyFontFamily: 'Nunito',
   bodyFontSize: '13px',
   bodyLineHeight: '1.8',

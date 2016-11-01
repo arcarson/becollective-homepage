@@ -20,6 +20,7 @@ const LogoList = ({ logos }) => {
             <img
               className="logo-list__image"
               src={ `/images/logos/${ logo }.jpg` }
+              alt={ `logo for ${ logo }` }
             />
           </li>
         )
@@ -30,6 +31,9 @@ const LogoList = ({ logos }) => {
 
 
 LogoList.propTypes = {
+  logos: React.PropTypes.arrayOf(
+    React.PropTypes.string
+  ),
 }
 
 

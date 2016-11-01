@@ -26,6 +26,8 @@ const FeatureButton = ({ icon, text }) => {
 
 
 FeatureButton.propTypes = {
+  icon: React.PropTypes.string.isRequired,
+  text: React.PropTypes.string.isRequired,
 }
 
 

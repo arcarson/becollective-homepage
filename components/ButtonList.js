@@ -27,7 +27,9 @@ const ButtonList = ({ buttons }) => {
 
 
 ButtonList.propTypes = {
-  buttons: React.PropTypes.array.isRequired,
+  buttons: React.PropTypes.arrayOf(
+    React.PropTypes.element,
+  ),
 }
 
 

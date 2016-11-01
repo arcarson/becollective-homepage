@@ -33,6 +33,8 @@ const StatBlock = ({
 
 
 StatBlock.propTypes = {
+  label: React.PropTypes.string.isRequired,
+  value: React.PropTypes.string.isRequired,
 }
 
 
