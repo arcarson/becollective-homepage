@@ -1,0 +1,9 @@
+@import './colors';
+@import './type';
+
+.hero-text {
+  @include h1;
+  color: $color-white;
+  font-weight: 900;
+  text-align: center;
+}

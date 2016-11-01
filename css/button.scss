@@ -16,3 +16,7 @@
   background-color: $color-grey-dark;
   border: solid 1px $color-white;
 }
+
+.button--green-transparency {
+  background-color: rgba($color-green, .8);
+}

@@ -1,6 +1,14 @@
 .hero {
+  align-items: center;
   background-attachment: fixed;
   background-image: url('../images/laptop.jpg');
   background-size: cover;
+  display: flex;
+  flex-direction: column;
   height: 30rem;
+  justify-content: center;
+
+  .hero-text + .button {
+    margin-top: 3rem;
+  }
 }
