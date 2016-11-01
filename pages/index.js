@@ -12,6 +12,7 @@ import StatList from '../components/StatList'
 import TextBlock from '../components/TextBlock'
 import TitleBlock from '../components/TitleBlock'
 import Inner from '../components/Inner'
+import LogoList from '../components/LogoList'
 
 
 // Component
@@ -127,6 +128,15 @@ const Home = () => {
             councils, schools, and causes.
           </p>
         </TextBlock>
+        <Inner>
+          <LogoList
+            logos={[
+              'thin-green-line',
+              'stkilda-gatehouse',
+              'swinburne',
+            ]}
+          />
+        </Inner>
       </Section>
 
 
