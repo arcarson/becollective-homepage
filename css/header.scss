@@ -2,7 +2,7 @@
 
 .header {
   align-items: center;
-  background-color: $color-grey;
+  background-color: $color-grey-dark;
   display: flex;
   justify-content: space-between;
   padding: 1rem;
@@ -12,4 +12,8 @@
 .header__aside {
   align-items: center;
   display: flex;
+}
+
+.header__action-spacing {
+  margin-right: 1.5rem;
 }

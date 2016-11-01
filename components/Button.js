@@ -1,5 +1,6 @@
 // Imports - config
 import React from 'react'
+import classNames from 'classnames'
 
 // Imports - styles
 import '../css/button'
@@ -9,7 +10,6 @@ const ButtonElement = ({ title, ...props }) => {
   return (
     <button
       { ...props }
-      className="button"
     >
       { title }
     </button>
@@ -23,9 +23,16 @@ ButtonElement.propTypes = {
 
 
 // Component
-const Button = (props) => {
+const Button = ({ color, className, ...props }) => {
+  const cx = classNames('button',
+                        { 'button--grey': color === 'grey' },
+                        { [className]: className })
+
   return (
-    <ButtonElement { ...props } />
+    <ButtonElement
+      className={ cx }
+      { ...props }
+    />
   )
 }
 

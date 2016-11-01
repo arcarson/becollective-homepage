@@ -36,6 +36,8 @@ const Header = () => {
 
         <Button
           title="Log in"
+          color="grey"
+          className="header__action-spacing"
         />
 
         <Button
