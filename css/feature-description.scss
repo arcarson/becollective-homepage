@@ -1,0 +1,28 @@
+@import './type';
+
+.feature-description {
+  align-items: center;
+  display: flex;
+  margin-left: -4rem;
+
+  &__main,
+  &__aside {
+    flex-basis: 50%;
+    padding-left: 4rem;
+  }
+
+  &__title {
+    @include h5;
+    font-weight: 700;
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+  }
+
+  &__image {
+    max-width: 100%;
+  }
+
+  &--reversed {
+    flex-direction: row-reverse;
+  }
+}

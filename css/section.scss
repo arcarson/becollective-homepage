@@ -1,6 +1,12 @@
+@import './colors';
+
 .section {
   align-items: center;
   display: flex;
   flex-direction: column;
   padding: 6rem 0;
+
+  &--grey {
+    background-color: $color-grey-light;
+  }
 }

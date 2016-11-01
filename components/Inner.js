@@ -1,15 +1,19 @@
 // Imports - config
 import React from 'react'
+import classNames from 'classnames'
 
 // Imports - styles
 import '../css/inner'
 
 
 // Component
-const Inner = ({ children }) => {
+const Inner = ({
+  children,
+  className,
+}) => {
   return (
     <div
-      className="inner"
+      className={ classNames('inner', { [className]: className }) }
     >
       { children }
     </div>
@@ -19,6 +23,7 @@ const Inner = ({ children }) => {
 
 Inner.propTypes = {
   children: React.PropTypes.node,
+  className: React.PropTypes.string,
 }
 
 

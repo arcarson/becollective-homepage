@@ -1,6 +1,9 @@
 // Imports - config
 import React from 'react'
 
+// Imports - components
+import Inner from '../components/Inner'
+
 // Imports - styling
 import '../css/hero'
 
@@ -11,7 +14,11 @@ const Hero = ({ children }) => {
     <div
       className="hero"
     >
-      { children }
+      <Inner
+        className="hero__inner"
+      >
+        { children }
+      </Inner>
     </div>
   )
 }
