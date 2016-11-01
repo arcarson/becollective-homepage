@@ -7,12 +7,12 @@ import ButtonList from '../components/ButtonList'
 import FeatureButton from '../components/FeatureButton'
 import Hero from '../components/Hero'
 import HeroText from '../components/HeroText'
+import Inner from '../components/Inner'
+import LogoList from '../components/LogoList'
 import Section from '../components/Section'
 import StatList from '../components/StatList'
 import TextBlock from '../components/TextBlock'
 import TitleBlock from '../components/TitleBlock'
-import Inner from '../components/Inner'
-import LogoList from '../components/LogoList'
 
 
 // Component
@@ -138,7 +138,6 @@ const Home = () => {
           />
         </Inner>
       </Section>
-
 
     </div>
   )
