@@ -115,6 +115,21 @@ const Home = () => {
         </Inner>
       </Hero>
 
+      <Section>
+        <TitleBlock
+          sub="Our everyday heros in the"
+          main="Be Collective community"
+        />
+
+        <TextBlock>
+          <p>
+            We pick profiles of our most active and inspirational individuals, orgs,
+            councils, schools, and causes.
+          </p>
+        </TextBlock>
+      </Section>
+
+
     </div>
   )
 }
