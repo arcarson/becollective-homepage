@@ -1,6 +1,9 @@
 // Imports - config
 import React from 'react'
 
+// Imports - componets
+import Divider from '../components/Divider'
+
 // Imports - styles
 import '../css/title-block'
 
@@ -21,6 +24,7 @@ const TitleBlock = ({ sub, main }) => {
       >
         { main }
       </h2>
+      <Divider />
     </div>
   )
 }

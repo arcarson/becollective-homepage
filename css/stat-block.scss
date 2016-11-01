@@ -1,0 +1,8 @@
+@import './colors';
+@import './type';
+
+.stat-block {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}

@@ -4,17 +4,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-bottom: 1.5rem;
   text-transform: uppercase;
-
-  &:after {
-    background-color: $color-green;
-    border-radius: 2rem;
-    content: '';
-    display: block;
-    height: .5rem;
-    width: 3rem;
-  }
 }
 
 .title-block__sub {
@@ -23,5 +13,4 @@
 
 .title-block__main {
   font-weight: 900;
-  margin-bottom: 1.5rem;
 }

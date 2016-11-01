@@ -8,8 +8,10 @@ import FeatureButton from '../components/FeatureButton'
 import Hero from '../components/Hero'
 import HeroText from '../components/HeroText'
 import Section from '../components/Section'
+import StatList from '../components/StatList'
 import TextBlock from '../components/TextBlock'
 import TitleBlock from '../components/TitleBlock'
+import Inner from '../components/Inner'
 
 
 // Component
@@ -99,6 +101,20 @@ const Home = () => {
           title="Download social cv sample"
         />
       </Section>
+
+      <Hero>
+        <Inner>
+          <StatList
+            stats={[
+              { label: 'Volunteers', value: '11,469' },
+              { label: 'Groups', value: '6,543' },
+              { label: 'Events', value: '243' },
+              { label: 'Opportunities', value: '4,623' },
+            ]}
+          />
+        </Inner>
+      </Hero>
+
     </div>
   )
 }

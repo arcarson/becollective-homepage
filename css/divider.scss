@@ -1,0 +1,9 @@
+@import './colors.scss';
+
+.divider {
+  background-color: $color-green;
+  border-radius: 2rem;
+  height: .5rem;
+  margin: 1.5rem 0;
+  width: 3rem;
+}
