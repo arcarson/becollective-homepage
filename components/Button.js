@@ -25,7 +25,7 @@ ButtonElement.propTypes = {
 // Component
 const Button = ({ color, className, ...props }) => {
   const cx = classNames('button',
-                        { 'button--grey': color === 'grey' },
+                        { [`button--${ color }`]: color },
                         { [className]: className })
 
   return (
